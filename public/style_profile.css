@@ -1,0 +1,81 @@
+
+h1 {
+    margin: center;
+}
+
+/* ปรับการจัดวางหัวข้อ */
+h2 {
+    font-size: 18px;
+    text-align: center;
+    /* จัดข้อความให้อยู่กลาง */
+    margin-bottom: 5px;
+    /* ลดระยะห่างด้านล่างของหัวข้อ */
+}
+
+/* ปรับฟอนต์และขนาดของตัวหนังสือให้เหมาะสม */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #edddff;
+    /* เพิ่มพื้นหลังสีอ่อน */
+    place-self: center;
+
+}
+
+/* ปรับแต่งกล่องข้อมูล */
+.data-count-box {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.toolbar_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edddff;
+    /* สีพื้นหลังของ toolbar */
+    padding: 10px 20px;
+    color: white;
+    height: 45px;
+}
+
+/* Toolbar styling */
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* ใช้ความกว้างเต็มจอ */
+    background-color: #3B1E54;
+    padding: 10px 20px;
+    color: white;
+    height: 45px;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.text_profile {
+    font-size: 26px;
+    /* ปรับขนาดใหญ่ขึ้นเล็กน้อย */
+    font-weight: 600;
+    /* ใช้ font-weight ที่หนาพอดี */
+    color: #ffffff;
+    /* สีตัวอักษรเป็นสีขาว */
+    text-align: center;
+    margin: 0 auto;
+    flex: 1;
+    /* ให้ตัวอักษรขยายเพื่อครอบคลุมพื้นที่ที่เหลือ */
+    padding-left: 0px;
+    /* ขยับไปทางขวานิดหน่อย */
+    letter-spacing: 1px;
+    /* เพิ่มระยะห่างระหว่างตัวอักษรเล็กน้อย */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* ใช้ฟอนต์ที่ดูทันสมัยและอ่านง่าย */
+}
+
+
+
